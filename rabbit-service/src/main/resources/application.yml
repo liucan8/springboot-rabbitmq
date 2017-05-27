@@ -1,0 +1,21 @@
+# SPRING PROFILES
+spring:
+    # HTTP ENCODING
+    http:
+        encoding.charset: UTF-8
+        encoding.enable: true
+        encoding.force: true
+
+server:
+    port: 8890
+
+rabbitMQ:
+    host: localhost
+    username: liucan
+    password: 123456
+    vhost: liucan_host
+    appExchange: liucan-exchange
+    logQueue: liucan-queue
+    logRouteKey: liucan
+
+
